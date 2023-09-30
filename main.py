@@ -137,7 +137,7 @@ class NitroGen:  # Initialise the class
 
             if os.name == "nt":  # If the system is windows
                 ctypes.windll.kernel32.SetConsoleTitleW(
-                    f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by Drillenissen#4268")  # Change the title
+                    f"Nitro Generator and Checker - {len(valid)} Valid | {invalid} Invalid - Made by Szyy")  # Change the title
                 print("")
             else:  # If it is a unix system
                 # Change the title
